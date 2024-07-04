@@ -14,7 +14,6 @@ function App() {
     //rendu (transforme un composant en HTML)
     return (
         <div className="App bg-bg">
-            <Header />
             <EventBanner />
             <PromoBanner />
             <CardHolderManual />

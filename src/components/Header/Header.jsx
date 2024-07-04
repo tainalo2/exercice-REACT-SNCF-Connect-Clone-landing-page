@@ -17,7 +17,6 @@ const Header = () => {
                 <Link to="/" className='flex-1'>
                     <Logo
                         className='block w-32 self-center'
-                        href="#"
                     />
                 </Link>
 

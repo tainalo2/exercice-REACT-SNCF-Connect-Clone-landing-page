@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Voyager from './pages/Voyager';
 import Home from './pages/Home';
 import Billets from './pages/Billets';
+import Header from './components/Header/Header';
 
 function App() {
   //définition du usestate (variable dynamique)
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App bg-bg">
+        <Header/>
         <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/voyager" element={<Voyager />} />

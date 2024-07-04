@@ -21,7 +21,7 @@ const CardRelay = ({ imgSrc, title, description, url, ctaText, game }) => {
                 <div className="text-xl font-bold text-black">{title}</div>
                 <div className="text-grayText">{description}</div>
             </div>
-            <a href={url} target="_blank" className="text-blueLink font-semibold text-sm p-2 h-fit w-full border-t-[1px] border-grayMinus text-center">{ctaText}</a>
+            <div href={url} target="_blank" className="text-blueLink font-semibold text-sm p-2 h-fit w-full border-t-[1px] border-grayMinus text-center">{ctaText}</div>
         </a>
     );
 };
